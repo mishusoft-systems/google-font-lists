@@ -4,6 +4,7 @@
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
+
  Generate a list from google fonts according to your configuration.
 
 ## Install
