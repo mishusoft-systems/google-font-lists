@@ -102,8 +102,10 @@
         }
       ],
       "include": {
-        "display_font": "no",
-        "variant": "4"
+        "display_font": "yes",
+        "handwritting_font": "yes",
+        "monospace_font": "yes",
+        "variant": "all"
       },
       "transform": {
         "regular": "400",
