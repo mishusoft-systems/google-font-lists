@@ -82,7 +82,7 @@ export default (Options: Options | null) => {
                             function (variant: string) {
                                 if (variant === 'regular') return OperationOptions.transform.regular;
                                 else if (variant === 'italic') return OperationOptions.transform.regularItalic;
-                                else if (regex.test(variant)) return variant.replace(regex, ` {OperationOptions.transform.italic}`);
+                                else if (regex.test(variant)) return variant.replace(regex, ` ${OperationOptions.transform.italic}`);
                                 else return variant;
                             })
                     }
